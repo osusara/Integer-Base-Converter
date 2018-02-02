@@ -1,6 +1,6 @@
-rep=(1)
+print("\n\nThis version keeps running again and again until it is terminated in cmd or terminal.\n\n")
 print("Choose FROM which base and TO which base, you want to convert,")
-while rep==1:
+while True:
     print("______________________________________________________________________________")
     y=int(input("From(1-binary,2-octal,3-decimal,4-hexadecimal): "))
     x=int(input("To(1-binary,2-octal,3-decimal,4-hexadecimal): "))
@@ -248,11 +248,3 @@ while rep==1:
         print("______________________________________________________________________________")
         print("your first selection input(",y,") is invalide")
         print("==============================================================================")
-    g4=int(input("Do you want to convert a number? (1-Yes/Others-No): "))
-    if g4==(1):
-        rep=(1)
-    else:
-        rep=(2)
-        print("______________________________________________________________________________")
-        print("OK then, have a nice day")
-        
