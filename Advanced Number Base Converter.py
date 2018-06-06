@@ -9,12 +9,12 @@ print("""
 print("""binary(2),octal(8),decimal(10)hexa(16)------->>>>>---------binary(2),octal(8),decimal(10),hexa(16)""")
 print("")
 print("""For advanced users:-you can convert 2-16 based  number system in to any other number system.
-          ex:-      *(Selection 1=)input number system of your digit{ex:3=3 based number system
+          ex:-      *(Selection 1 =)input number system of your digit{ex:3=3 based number system
                                                                         5=5 based number system
                                                                         11=11 based number system}
                     DO NOT USE LARGER NUMBER SYSTEM THAN 16 BASED NUMBER SYSTEM(hexadecimal)                                                       
                                                                     
-                    *(Selection 2=)input any number system you need to convert.
+                    *(Selection 2 =)input any number system you need to convert.
           NOTE (1)- if you input 2-10 based number system to 'selection 1',you can't use any letter
                     in alphabet.
                     but 11-16 based number system,you can use relevant letters,(A,B,C,D,E,F)
